@@ -1,0 +1,8 @@
+name: FAKE Honeypot
+type: module
+description: 'Max testing what happens with composer install conflicts'
+package: "Spam control"
+core: 8.x
+core_version_requirement: ^8 || ^9
+configure: honeypot.config
+hidden: false

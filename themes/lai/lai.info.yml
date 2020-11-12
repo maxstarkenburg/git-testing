@@ -1,0 +1,6 @@
+name: LAI
+type: theme
+description: 'This is the base theme for LAI'
+package: Other
+core_version_requirement: ^8 || ^9
+hidden: true
