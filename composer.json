@@ -1,17 +1,12 @@
 {
     "name": "maxstarkenburg/git-testing",
     "description": "Testing a git repo as a composer dependency",
-    "type": "drupal-module",
     "authors": [
         {
             "name": "Max Starkenburg",
             "email": "maxstarkenburg@gmail.com",
             "homepage": "https://maxwell.fyi"
         }
-    ],
-    "require": {
-        "composer/installers": "^1.9",
-        "composer-plugin-api": "^1.0 || ^2.0"
-    }
+    ]
 }
 
