@@ -1,0 +1,12 @@
+{
+    "name": "maxstarkenburg/git-testing",
+    "description": "Testing a git repo as a composer dependency",
+    "authors": [
+        {
+            "name": "Max Starkenburg",
+            "email": "maxstarkenburg@gmail.com",
+            "homepage": "https://maxwell.fyi"
+        }
+    ]
+}
+
