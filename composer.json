@@ -8,6 +8,11 @@
             "email": "maxstarkenburg@gmail.com",
             "homepage": "https://maxwell.fyi"
         }
-    ]
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-primary": "1.0.x-dev"
+        }
+    }
 }
 
