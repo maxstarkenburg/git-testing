@@ -6,3 +6,5 @@ For example, seeing if hashes change if/when:
  * `main` branch is renamed (to test historical repos using `master`): no apparent changes!
 
 Also several tests related to requiring Git repos as packages/requirements in composer, including branch aliasing.
+
+Adding a change to test remote SSH vs. HTTPS changes
