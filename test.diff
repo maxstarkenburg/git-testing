@@ -1,0 +1,20 @@
+commit 7504be1b09fc6ce3235b7748bd3a9cce67dc67b7
+Author: Max Starkenburg <maxstarkenburg@gmail.com>
+Date:   Fri Sep 3 15:33:05 2021 -0400
+
+    Don't add clearfix class to fields just with inline fields.
+    
+    Changing this here for gwu-libraries/libsite#161 instead of having to create an entirely new template override there or perform weird CSS gymnastics to avoid it.
+
+diff --git a/themes/lai/templates/field/field.html.twig b/themes/lai/templates/field/field.html.twig
+index 1cfbd65..0b10969 100644
+--- a/themes/lai/templates/field/field.html.twig
++++ b/themes/lai/templates/field/field.html.twig
+@@ -43,7 +43,6 @@
+     'field--name-' ~ field_name|clean_class,
+     'field--type-' ~ field_type|clean_class,
+     'field--label-' ~ label_display,
+-    label_display == 'inline' ? 'clearfix',
+   ]
+ %}
+ {%
